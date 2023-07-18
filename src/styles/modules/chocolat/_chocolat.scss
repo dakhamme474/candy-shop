@@ -1,0 +1,37 @@
+/* CSS pour le modal */
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 700px;
+    height: auto;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    transform: translate(-50%,-50%);
+  }
+  
+  .modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .close {
+    float: right;
+    cursor: pointer;
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 8px;
+  }

@@ -1,0 +1,24 @@
+.drink-normal{
+    margin-left: 200px;
+    margin-top: 60px;
+    h1{
+        color: white;
+        padding: 15px;
+    }
+}
+.panier{
+    text-decoration: none;
+    background-color: pink;
+    padding: 10px 25px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 12px;
+    position: absolute;
+    right: 40px;
+     top: 120px;
+    transition: 0.3s;
+}
+.panier:hover{
+    background-color: rgba(128, 128, 128, 0.614);
+}
